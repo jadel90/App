@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <string name="display_patient_details">display_patient_details</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="dob">dob</string>
+    <string name="insurance_company">insurance_company</string>
+    <string name="policy_number">policy_number</string>
+    <string name="expiry_date">expiry_date</string>
+    <string name="doctor_image">doctor_image</string>
+    <string name="doctor_name">doctor_image</string>
+    <string name="doctor_info">doctor_info</string>
+    <string name="back_button">back_button</string>
+    <string name="go_back">go_back</string>
+    <string name="home_button">home_button</string>
+    <string name="go_home">go_home</string>
+    <string name="fab_description">fab_description</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="rating">rating</string>
+    <string name="reviews">reviews</string>
+
+
+    <string-array name="screen_names">
+        <item>Insurance</item>
+        <item>Edit patient details</item>
+        <item>Patient profile</item>
+        <item>Rating</item>
+        <item>Call Medical/ Call Insurance</item>
+        <item>Contact Insurance</item>
+        <item>Contact Medical</item>
+        <item>GP details</item>
+        <item>Diabetes questionnaire</item>
+        <item>Heart questionnaire</item>
+        <item>Lung cancer questionnaire</item>
+
+
+
+    </string-array>
+
+    <string-array name="doctor_names">
+        <item>Doctor1</item>
+        <item>Doctor2</item>
+        <item>Doctor3</item>
+        <item>Doctor4</item>
+    </string-array>
+
+    <string-array name="doctor_info">
+        <item>info1</item>
+        <item>info2</item>
+        <item>info3</item>
+        <item>info4</item>
+    </string-array>
+
+
+</resources>

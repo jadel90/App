@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".LungCancerQuestionnaire">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Lung Cancer Questionnaire"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Age Field -->
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Age (in years)"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <!-- Alcohol Consumption Field -->
+        <EditText
+            android:id="@+id/alcohol_consumption"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Alcohol Consumption (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Allergy Field -->
+        <EditText
+            android:id="@+id/allergy"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Allergy (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Breath Shortness Field -->
+        <EditText
+            android:id="@+id/breath_shortness"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Breath Shortness (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Chest Pain Field -->
+        <EditText
+            android:id="@+id/chest_pain"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Chest Pain (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Chronic Disease Field -->
+        <EditText
+            android:id="@+id/chronic_disease"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Chronic Disease (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Coughing Field -->
+        <EditText
+            android:id="@+id/coughing"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Coughing (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Fatigue Field -->
+        <EditText
+            android:id="@+id/fatigue"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Fatigue (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Gender Radio Buttons -->
+        <RadioGroup
+            android:id="@+id/gender_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+            <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="14sp"/>
+            <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="14sp"/>
+        </RadioGroup>
+
+        <!-- Peer Pressure Field -->
+        <EditText
+            android:id="@+id/peer_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Peer Pressure (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Smoking Field -->
+        <EditText
+            android:id="@+id/smoking"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Smoking (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Swallowing Difficulty Field -->
+        <EditText
+            android:id="@+id/swallowing_difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Swallowing Difficulty (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Wheezing Field -->
+        <EditText
+            android:id="@+id/wheezing"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Wheezing (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Yellow Fingers Field -->
+        <EditText
+            android:id="@+id/yellow_fingers"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Yellow Fingers (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

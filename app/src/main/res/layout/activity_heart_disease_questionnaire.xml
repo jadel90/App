@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    tools:context=".HeartDiseaseQuestionnaire">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Heart Disease Questionnaire"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Age Field -->
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Age (in years)"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <!-- Blood Pressure (BP) Field -->
+        <EditText
+            android:id="@+id/bp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Blood Pressure (mm Hg)"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <!-- Chest Pain Field -->
+        <EditText
+            android:id="@+id/chest_pain"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Chest Pain (between 0 to 3)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Cholesterol Field -->
+        <EditText
+            android:id="@+id/cholesterol"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Cholesterol Level (mg/dL)"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <!-- EKG Result Field -->
+        <EditText
+            android:id="@+id/ekg_result"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="EKG Result"
+            android:layout_marginTop="16dp" />
+
+        <!-- Exercise-Induced Angina Field -->
+        <EditText
+            android:id="@+id/exercise_angina"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Exercise-Induced Angina (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Fasting Blood Sugar (FBS) Over 120 Field -->
+        <EditText
+            android:id="@+id/fbs_over_120"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Fasting Blood Sugar > 120 (Yes/No)"
+            android:layout_marginTop="16dp" />
+
+        <!-- Maximum Heart Rate (Max HR) Field -->
+        <EditText
+            android:id="@+id/max_hr"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Maximum Heart Rate (bpm)"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <!-- Sex Radio Buttons -->
+        <RadioGroup
+            android:id="@+id/sex_group"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+            <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Female"
+                android:textSize="14sp"/>
+            <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Male"
+                android:textSize="14sp"/>
+        </RadioGroup>
+
+        <!-- ST Depression Field -->
+        <EditText
+            android:id="@+id/st_depression"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="ST Depression"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="16dp" />
+
+        <!-- ST Slope Field -->
+        <EditText
+            android:id="@+id/st_slope"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="ST Slope"
+            android:layout_marginTop="16dp" />
+
+        <!-- Thallium Field -->
+        <EditText
+            android:id="@+id/thallium"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Thallium"
+            android:layout_marginTop="16dp" />
+
+        <!-- Vessels (Fluoroscopy) Number Field -->
+        <EditText
+            android:id="@+id/vessels_fluro_num"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Vessels (Fluoroscopy) Number"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <!-- Submit Button -->
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Submit"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

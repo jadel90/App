@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <item name="headerTitle" type="id">headerTitle</item>-->
+<!--    <item name="labelPatientName" type="id">labelPatientName</item>-->
+<!--    <item name="tvPatientName" type="id">tvPatientName</item>-->
+<!--    <item name="labelPatientEmail" type="id">labelPatientEmail</item>-->
+<!--    <item name="tvPatientEmail" type="id">tvPatientEmail</item>-->
+<!--    <item name="labelPatientDOB" type="id">tvPatientEmail</item>-->
+<!--    <item name="tvPatientDOB" type="id">tvPatientDOB</item>-->
+<!--    <item name="labelInsuranceCompany" type="id">tvPatientDOB</item>-->
+<!--    <item name="tvInsuranceCompany" type="id">tvInsuranceCompany</item>-->
+<!--    <item name="labelPolicyNumber" type="id">labelPolicyNumber</item>-->
+<!--    <item name="tvPolicyNumber" type="id">tvPolicyNumber</item>-->
+<!--    <item name="labelExpiryDate" type="id">labelExpiryDate</item>-->
+<!--    <item name="tvExpiryDate" type="id">tvExpiryDate</item>-->
+<!--    <item name="textView24" type="id">textView24</item>-->
+<!--    <item name="button4" type="id">button4</item>-->
+<!--    <item name="editTextDate3" type="id">editTextDate3</item>-->
+<!--    <item name="name" type="id">name</item>-->
+<!--    <item name="phone_number" type="id">phone_number</item>-->
+<!--    <item name="dob" type="id">dob</item>-->
+<!--    <item name="radio_group_gender" type="id">radio_group_gender</item>-->
+<!--    <item name="radio_female" type="id">radio_female</item>-->
+<!--    <item name="radio_male" type="id">radio_male</item>-->
+<!--    <item name="btn_register" type="id">btn_register</item>-->
+<!--    <item name="loginNow" type="id">loginNow</item>-->
+<!--    <item name="textView20" type="id">textView20</item>-->
+<!--    <item name="textView23" type="id">textView23</item>-->
+<!--    <item name="editTextText8" type="id">editTextText8</item>-->
+<!--    <item name="textView25" type="id">textView25</item>-->
+<!--    <item name="editTextPhoneNumber" type="id">editTextPhoneNumber</item>-->
+<!--    <item name="buttonEdit" type="id">buttonEdit</item>-->
+<!--    <item name="editTextTextPostalAddress" type="id">editTextTextPostalAddress</item>-->
+<!--    <item name="buttonSave" type="id">buttonSave</item>-->
+<!--    <item name="buttonUpdate" type="id">buttonUpdate</item>-->
+<!--    <item name="labelRating" type="id">labelRating</item>-->
+<!--    <item name="tvRating" type="id">tvRating</item>-->
+<!--    <item name="textView3" type="id">textView3</item>-->
+<!--    <item name="tvReviews" type="id">tvReviews</item>-->
+<!--    <item name="textView21" type="id">textView21</item>-->
+<!--    <item name="editTextText6" type="id">editTextText6</item>-->
+
+<!--    <item name="labelHasAlcoholConsumption" type="id">labelHasAlcoholConsumption</item>-->
+
+<!--    <item name="labelHasAllergy" type="id">labelHasAllergy</item>-->
+
+<!--    <item name="labelHasBreathShortness" type="id">labelHasBreathShortness</item>-->
+
+<!--    <item name="labelHasChronicDisease" type="id">labelHasChronicDisease</item>-->
+
+<!--    <item name="labelHasCoughing" type="id">labelHasCoughing</item>-->
+
+
+
+<!--    <item name="labelHasFatigue" type="id">labelHasFatigue</item>-->
+<!--    <item name="tv_has_poor_pressure" type="id">tv_has_poor_pressure</item>-->
+<!--    <item name="labelHasPoorPressure" type="id">labelHasPoorPressure</item>-->
+<!--    <item name="labelHasSmoking" type="id">labelHasSmoking</item>-->
+<!--    <item name="tv_has_smoking" type="id">tv_has_smoking</item>-->
+<!--    <item name="labelHasSwallowingDifficulties" type="id">labelHasSwallowingDifficulties</item>-->
+<!--    <item name="tv_has_swallowing_difficulties" type="id">tv_has_swallowing_difficulties</item>-->
+<!--    <item name="labelHasWheezing" type="id">labelHasWheezing</item>-->
+<!--    <item name="tv_has_wheezing" type="id">tv_has_wheezing</item>-->
+<!--    <item name="labelHasYellowFingers" type="id">labelHasYellowFingers</item>-->
+<!--    <item name="tv_has_yellow_fingers" type="id">tv_has_yellow_fingers</item>-->
+<!--    <item name="tv_alcohol_consumption" type="id">tv_alcohol_consumption</item>-->
+<!--    <item name="tv_allergy" type="id">tv_allergy</item>-->
+<!--    <item name="tv_has_breath_shortness" type="id">tv_has_breath_shortness</item>-->
+<!--    <item name="tv_has_chronic_disease" type="id">tv_has_chronic_disease</item>-->
+<!--    <item name="tv_has_coughing" type="id">tv_has_coughing</item>-->
+<!--    <item name="tv_has_fatigue" type="id">tv_has_fatigue</item>-->
+
+
+
+</resources>

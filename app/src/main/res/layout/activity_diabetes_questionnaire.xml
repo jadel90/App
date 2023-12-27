@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    tools:context=".DiabetesQuestionnaire">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Diabetes Questionnaire"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/pregnancy"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Number of Pregnancies"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+
+        <EditText
+            android:id="@+id/glucose"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Glucose"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+
+        <EditText
+            android:id="@+id/blood_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Blood Pressure"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+
+        <EditText
+            android:id="@+id/skin_thickness"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Skin Thickness"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+
+        <EditText
+            android:id="@+id/insulin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Insulin"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <EditText
+            android:id="@+id/bmi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="BMI"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+
+
+        <EditText
+            android:id="@+id/pedigree_function"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Pedigree Function"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Age"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <EditText
+            android:id="@+id/outcome"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Outcome"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

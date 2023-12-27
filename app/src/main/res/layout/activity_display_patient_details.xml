@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayPatientDetails">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Display Patient Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Patient Name Label and Value -->
+    <TextView
+        android:id="@+id/labelPatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Name:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/headerTitle"
+        app:layout_constraintTop_toBottomOf="@+id/headerTitle" />
+
+    <TextView
+        android:id="@+id/tvPatientName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelPatientName"
+        app:layout_constraintTop_toTopOf="@+id/labelPatientName" />
+
+    <!-- Patient Email Label and Value -->
+    <TextView
+        android:id="@+id/labelPatientEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Email:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelPatientName"
+        app:layout_constraintTop_toBottomOf="@+id/labelPatientName" />
+
+    <TextView
+        android:id="@+id/tvPatientEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelPatientEmail"
+        app:layout_constraintTop_toTopOf="@+id/labelPatientEmail" />
+
+    <!-- Patient DOB Label and Value -->
+    <TextView
+        android:id="@+id/labelPatientDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="DOB:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelPatientEmail"
+        app:layout_constraintTop_toBottomOf="@+id/labelPatientEmail" />
+
+    <TextView
+        android:id="@+id/tvPatientDOB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelPatientDOB"
+        app:layout_constraintTop_toTopOf="@+id/labelPatientDOB" />
+
+
+
+    <!-- Patient Phone number Label and Value -->
+
+    <TextView
+        android:id="@+id/labelPatientPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:text="Phone Number:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelPatientDOB"
+        app:layout_constraintTop_toBottomOf="@+id/labelPatientDOB" />
+
+    <TextView
+        android:id="@+id/tvPatientPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelPatientPhoneNumber"
+        app:layout_constraintTop_toTopOf="@+id/labelPatientPhoneNumber" />
+
+    <!-- Patient Address Label and Value -->
+    <TextView
+        android:id="@+id/labelPatientAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        android:text="Address:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelPatientPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/labelPatientPhoneNumber" />
+
+    <!-- Insurance Company Label and Value -->
+
+    <TextView
+        android:id="@+id/tvPatientAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:lines="4"
+        android:maxLines="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labelPatientAddress"
+        app:layout_constraintTop_toTopOf="@+id/labelPatientAddress" />
+
+    <TextView
+        android:id="@+id/labelInsuranceCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Insurance Company:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelPatientAddress"
+        app:layout_constraintTop_toBottomOf="@+id/labelPatientAddress" />
+
+    <TextView
+        android:id="@+id/tvInsuranceCompany"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelInsuranceCompany"
+        app:layout_constraintTop_toTopOf="@+id/labelInsuranceCompany" />
+
+    <!-- Policy Number Label and Value -->
+
+    <TextView
+        android:id="@+id/labelPolicyNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Policy Number:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelInsuranceCompany"
+        app:layout_constraintTop_toBottomOf="@+id/labelInsuranceCompany" />
+
+    <TextView
+        android:id="@+id/tvPolicyNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelPolicyNumber"
+        app:layout_constraintTop_toTopOf="@+id/labelPolicyNumber" />
+
+    <!-- Expiry Date Label and Value -->
+    <TextView
+        android:id="@+id/labelExpiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Expiry Date:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelPolicyNumber"
+        app:layout_constraintTop_toBottomOf="@+id/labelPolicyNumber" />
+
+    <TextView
+        android:id="@+id/tvExpiryDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelExpiryDate"
+        app:layout_constraintTop_toTopOf="@+id/labelExpiryDate" />
+
+    <!-- Expiry Date Label and Value -->
+
+    <!-- Reviews Label and Value -->
+    <TextView
+        android:id="@+id/labelRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Rating:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/labelExpiryDate"
+        app:layout_constraintTop_toBottomOf="@+id/labelExpiryDate" />
+
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/labelRating"
+        app:layout_constraintTop_toTopOf="@+id/labelRating" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="30dp"
+        android:text="Reviews"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvReviews"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvReviews" />
+
+
+
+    <TextView
+        android:id="@+id/tvReviews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/labelRating"
+        android:lines="4"
+        android:maxLines="6"
+        android:ellipsize="end"
+        />
+
+<!--    &lt;!&ndash; Patient Phone number Label and Value &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/labelPatientPhoneNumber"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginTop="132dp"-->
+<!--        android:text="Phone Number:"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/labelRating"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/labelRating" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPatientPhoneNumber"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/labelPatientPhoneNumber"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/labelPatientPhoneNumber" />-->
+
+<!--    &lt;!&ndash; Patient Address Label and Value &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/labelPatientAddress"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:text="Address:"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/labelPatientPhoneNumber"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/labelPatientPhoneNumber" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPatientAddress"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:ellipsize="end"-->
+<!--        android:lines="4"-->
+<!--        android:maxLines="6"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/labelPatientAddress"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/labelPatientAddress" />-->
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="656dp"
+        android:contentDescription="@string/home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <TextView
+        android:id="@+id/fabText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/go_home"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/fab"
+        app:layout_constraintTop_toTopOf="@+id/fab" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
